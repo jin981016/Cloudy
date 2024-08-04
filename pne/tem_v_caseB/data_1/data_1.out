@@ -1,0 +1,106 @@
+                                                          Cloudy 17.03
+                                                         www.nublado.org
+
+                       **************************************17Jun01**************************************
+                       *                                                                                 *
+                       * title data 1                                                                    *
+                       * set punch prefix "data_1"                                                       *
+                       * Blackbody 10000.000000                                                          *
+                       * luminosity = 37.000                                                             *
+                       * radius = 11.874                                                                 *
+                       * hden = 5.000                                                                    *
+                       * filling factor = 1.0                                                            *
+                       * case B                                                                          *
+                       * stop column denstiy 24                                                          *
+                       * stop temperature off                                                            *
+                       * save last radius ".rad"                                                         *
+                       * save last continuum ".cont"                                                     *
+                       * save last physical conditions ".phy"                                            *
+                       * save last overview ".ovr"                                                       *
+                       * save last heating ".heat"                                                       *
+                       * save last cooling ".cool"                                                       *
+                       * save last optical depth ".opd"                                                  *
+                       * save last element hydrogen ".ele_H"                                             *
+                       * save last element helium ".ele_He"                                              *
+                       * save last element carbon ".ele_C"                                               *
+                       * save last element nitrogen ".ele_N"                                             *
+                       * save last element oxygen ".ele_O"                                               *
+                       * save last element argon ".ele_Ar"                                               *
+                       * save last element neon ".ele_Ne"                                                *
+                       * save last element sulphur ".ele_S"                                              *
+                       * save last element chlorin ".ele_Cl"                                             *
+                       * save last element iron ".ele_Fe"                                                *
+                       * save last element silicon ".ele_Si"                                             *
+                       * save last lines emissivity  ".emis"                                             *
+                       *                                                                                 *
+                       ***********************************************************************************
+
+
+
+
+ NOTE
+ NOTE The simulation is going into neutral gas but cosmic rays are not included.
+ NOTE Ion-molecule chemistry will not occur without a source of ionization.
+ NOTE The chemistry network may collapse deep in molecular regions.
+ NOTE Consider adding galactic background cosmic rays with the COSMIC RAYS BACKGROUND command.
+ NOTE You may be making a BIG mistake.
+ NOTE
+
+
+
+ NOTE Setcon: continuum has zero intensity starting at  1.0119e+01 Ryd.
+  1647 cells in the incident continuum have zero intensity.  Problems???
+
+
+ WARNING:  The energy density temperature (88297.2) is greater than the black body temperature (10000).  This is unphysical.
+
+           8228CellPeak1.00E+00   Lo 3.04e-09=  29.98m   Hi-Con:7.13E+06 Ryd   E(hi):7.35E+06Ryd     E(hi):     100.00 MeV
+           L(nu>1ryd):  37.0000   Average nu:1.071E+00   L( X-ray):   0.0000   L(BalC):  40.6027     Q(Balmer C):  51.7298
+           Q(1.0-1.8):  47.6319   Q(1.8-4.0):  42.5835   Q(4.0-20):  28.2225   Q(20--):   0.0000     Ion pht flx:6.091E+22
+           L(gam ray):   0.0000   Q(gam ray):   0.0000   L(Infred):  40.7552   Alf(ox):   0.0000     Total lumin:  40.9867
+           log L/Lsun:   7.4037   Abs bol mg: -13.7667   Abs V mag: -13.3755   Bol cor:  -0.3911     nuFnu(Bbet):  40.7969
+           U(1.0----):2.032E+07   U(4.0----):7.914E-13   T(En-Den):8.830E+04   T(Comp):2.559E+06     nuJnu(912A):1.834E+13
+           Occ(FarIR):1.264E+11   Occ(H n=6):1.106E+04   Occ(1Ryd):8.491E-04   Occ(4R):2.054E-24     Occ (Nu-hi):0.000E+00
+           Tbr(FarIR):6.078E+07   Tbr(H n=6):4.844E+07   Tbr(1Ryd):1.340E+02   Tbr(4R):1.299E-18     Tbr (Nu-hi):0.000E+00
+  
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  1.83e+05 fnzone 0.14 
+ Absolute:  -2.12e-07 -2.96e-07 -3.81e-07  3.05e-07  3.05e-07  5.48e-07  1.18e-36  1.18e-36  1.18e-36  9.88e-23  1.18e-36  1.18e-36  1.18e-36  1.18e-36  1.18e-36
+ Relative:  -7.91e-01 -1.11e+00 -1.42e+00  1.14e+00  1.14e+00  2.05e+00  4.39e-30  4.39e-30  4.39e-30  3.69e-16  4.39e-30  4.39e-30  4.39e-30  4.39e-30  4.39e-30
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  2.20e+05 fnzone 0.16 
+ Absolute:  -6.93e-06 -1.58e-10 -3.43e-15  7.79e-06  7.79e-06  1.40e-05  1.18e-36  1.18e-36  1.18e-36  5.16e-21  1.18e-36  1.18e-36  1.18e-36  1.18e-36  1.18e-36
+ Relative:  -3.06e-01 -6.98e-06 -1.51e-10  3.44e-01  3.44e-01  6.18e-01  5.19e-32  5.19e-32  5.19e-32  2.28e-16  5.19e-32  5.19e-32  5.19e-32  5.19e-32  5.19e-32
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  3.80e+05 fnzone 0.22 
+ Absolute:  -2.12e-03 -2.97e-03 -3.82e-03  9.38e-03  9.38e-03  1.69e-02  1.18e-36  1.18e-36  1.18e-36  2.63e-17  1.18e-36  1.18e-36  1.18e-36  1.18e-36  1.18e-36
+ Relative:  -7.95e-02 -1.11e-01 -1.43e-01  3.51e-01  3.51e-01  6.32e-01  4.40e-35  4.40e-35  4.40e-35  9.84e-16  4.40e-35  4.40e-35  4.40e-35  4.40e-35  4.40e-35
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  4.56e+05 fnzone 0.24 
+ Absolute:   1.04e-01  1.55e-05  2.37e-09 -1.19e-02 -1.19e-02 -2.15e-02  2.61e-16  3.54e-20  5.04e-24  1.18e-36  1.15e-16  1.19e-17  1.29e-21  4.76e-17  5.21e-22
+ Relative:   1.77e+00  2.63e-04  4.02e-08 -2.02e-01 -2.02e-01 -3.64e-01  4.42e-15  6.00e-19  8.55e-23  1.99e-35  1.95e-15  2.02e-16  2.18e-20  8.07e-16  8.83e-21
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  6.56e+05 fnzone 0.28 
+ Absolute:  -3.87e-04 -5.42e-04 -6.97e-04  1.73e-02  1.73e-02  3.12e-02  1.18e-36  1.18e-36  1.18e-36  1.04e-16  1.18e-36  1.18e-36  1.18e-36  1.18e-36  1.18e-36
+ Relative:  -6.02e-03 -8.43e-03 -1.08e-02  2.70e-01  2.70e-01  4.85e-01  1.83e-35  1.83e-35  1.83e-35  1.61e-15  1.83e-35  1.83e-35  1.83e-35  1.83e-35  1.83e-35
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  1.63e+06 fnzone 0.42 
+ Absolute:   2.55e-04  3.57e-04  4.59e-04 -1.35e-04 -1.35e-04 -2.43e-04  1.60e-18  2.04e-18  2.46e-18  1.18e-36  8.02e-19  1.11e-18  1.43e-18  3.69e-19  8.68e-19
+ Relative:   4.58e-01  6.40e-01  8.23e-01 -2.43e-01 -2.43e-01 -4.36e-01  2.86e-15  3.66e-15  4.41e-15  2.11e-33  1.44e-15  2.00e-15  2.56e-15  6.61e-16  1.56e-15
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=T Te=  2.56e+06 fnzone 0.67 
+ Absolute:   3.50e-09  4.90e-09  6.29e-09 -3.80e-09 -3.80e-09 -6.84e-09  2.31e-23  2.95e-23  3.56e-23  1.18e-36  1.18e-23  1.64e-23  2.09e-23  5.49e-24  1.29e-23
+ Relative:   1.49e+01  2.08e+01  2.68e+01 -1.62e+01 -1.62e+01 -2.91e+01  9.81e-14  1.25e-13  1.51e-13  5.00e-27  5.01e-14  6.96e-14  8.91e-14  2.34e-14  5.50e-14
+ dBase_solve fixup: negative pops set to zero during search phase, continuing.
+
+ PROBLEM atom_levelN found negative population, nNegPop=3, atom=Ni 9 lgSearch=F Te=  2.56e+06 fnzone 0.00 
+ Absolute:   9.22e-10  1.29e-09  1.66e-09 -1.00e-09 -1.00e-09 -1.81e-09  6.08e-24  7.78e-24  9.38e-24  1.18e-36  3.10e-24  4.31e-24  5.52e-24  1.45e-24  3.41e-24
+ Relative:   1.63e+01  2.28e+01  2.93e+01 -1.77e+01 -1.77e+01 -3.19e+01  1.07e-13  1.37e-13  1.65e-13  2.07e-26  5.47e-14  7.61e-14  9.74e-14  2.55e-14  6.01e-14
+ PROBLEM in dBase_solve, atom_levelN returned negative population .
+ [Stop in dBase_solve at species2.cpp:656, something went wrong]

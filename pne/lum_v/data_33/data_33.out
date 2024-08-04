@@ -1,0 +1,136 @@
+                                                          Cloudy 17.03
+                                                         www.nublado.org
+
+                       **************************************17Jun01**************************************
+                       *                                                                                 *
+                       * title data 33                                                                   *
+                       * set punch prefix "data_33"                                                      *
+                       * Blackbody 200000.000000                                                         *
+                       * Luminosity = 35.970                                                             *
+                       * radius = 11.874                                                                 *
+                       * hden = 5.000                                                                    *
+                       * filling factor = 1.0                                                            *
+                       * stop column denstiy 24                                                          *
+                       * stop temperature off                                                            *
+                       * save last radius ".rad"                                                         *
+                       * save last continuum ".cont"                                                     *
+                       * save last physical conditions ".phy"                                            *
+                       * save last overview ".ovr"                                                       *
+                       * save last heating ".heat"                                                       *
+                       * save last cooling ".cool"                                                       *
+                       * save last optical depth ".opd"                                                  *
+                       * save last element hydrogen ".ele_H"                                             *
+                       * save last element helium ".ele_He"                                              *
+                       * save last element carbon ".ele_C"                                               *
+                       * save last element nitrogen ".ele_N"                                             *
+                       * save last element oxygen ".ele_O"                                               *
+                       * save last element argon ".ele_Ar"                                               *
+                       * save last element neon ".ele_Ne"                                                *
+                       * save last element sulphur ".ele_S"                                              *
+                       * save last element chlorin ".ele_Cl"                                             *
+                       * save last element iron ".ele_Fe"                                                *
+                       * save last element silicon ".ele_Si"                                             *
+                       * save last lines emissivity  ".emis"                                             *
+                       *                                                                                 *
+                       ***********************************************************************************
+
+
+
+
+ NOTE
+ NOTE The simulation is going into neutral gas but cosmic rays are not included.
+ NOTE Ion-molecule chemistry will not occur without a source of ionization.
+ NOTE The chemistry network may collapse deep in molecular regions.
+ NOTE Consider adding galactic background cosmic rays with the COSMIC RAYS BACKGROUND command.
+ NOTE You may be making a BIG mistake.
+ NOTE
+
+
+
+ NOTE Setcon: continuum has zero intensity starting at  1.8325e+02 Ryd.
+   778 cells in the incident continuum have zero intensity.  Problems???
+
+           8228CellPeak3.58E+00   Lo 3.04e-09=  29.98m   Hi-Con:7.13E+06 Ryd   E(hi):7.35E+06Ryd     E(hi):     100.00 MeV
+           L(nu>1ryd):  35.9700   Average nu:3.726E+00   L( X-ray):  31.8337   L(BalC):  34.2374     Q(Balmer C):  45.0654
+           Q(1.0-1.8):  45.3051   Q(1.8-4.0):  45.7226   Q(4.0-20):  45.6223   Q(20--):  41.1534     Ion pht flx:1.633E+21
+           L(gam ray):   0.0000   Q(gam ray):   0.0000   L(Infred):  32.5411   Alf(ox): -16.5346     Total lumin:  35.9781
+           log L/Lsun:   2.3952   Abs bol mg:  -1.2453   Abs V mag:   7.2775   Bol cor:  -8.5228     nuFnu(Bbet):  32.6439
+           U(1.0----):5.448E+05   U(4.0----):1.987E+05   T(En-Den):4.941E+03   T(Comp):1.916E+05     nuJnu(912A):6.725E+09
+           Occ(FarIR):1.550E+02   Occ(H n=6):1.683E-05   Occ(1Ryd):3.100E-07   Occ(4R):1.646E-08     Occ (Nu-hi):0.000E+00
+           Tbr(FarIR):7.450E-02   Tbr(H n=6):7.369E-02   Tbr(1Ryd):4.893E-02   Tbr(4R):1.041E-02     Tbr (Nu-hi):0.000E+00
+  
+                                                  Gas Phase Chemical Composition
+        H :  0.0000  He: -1.0000  Li: -8.6904  Be:-10.5800  B : -9.2097  C : -3.6108  N : -4.0701  O : -3.3098  F : -7.5200
+        Ne: -4.0000  Na: -5.6696  Mg: -4.4597  Al: -5.5302  Si: -4.4597  P : -6.4949  S : -4.7352  Cl: -6.7190  Ar: -5.6003
+        K : -6.8794  Ca: -5.6402  Sc: -8.8297  Ti: -6.9788  V : -8.0000  Cr: -6.3298  Mn: -6.5406  Fe: -4.5498  Co: -7.0799
+                                               Ni: -5.7496  Cu: -7.7905  Zn: -7.4001
+ 
+WARNING: no exact matching lines found for "HE 2" 949.310A
+Taking best match as "He 2                949.324A"
+WARNING: no exact matching lines found for "HE 2" 4859.00A
+Taking best match as "He 2                4859.18A"
+WARNING: no exact matching lines found for "HE 2" 4339.00A
+WARNING: Line with incorrect label found close "O  2                4339.00A"
+Taking best match as "He 2                4338.55A"
+WARNING: no exact matching lines found for "HE 2" 6529.00A
+Taking best match as "He 2                6526.88A"
+Possible ambiguity with "He 2                6559.91A"
+WARNING: no exact matching lines found for "HE 2" 6560.00A
+Taking best match as "He 2                6559.91A"
+ ####  1  Te:1.705E+05 Hden:1.000E+05 Ne:1.207E+05 R:7.631E+11 R-R0:1.496E+10 dR:2.993E+10 NTR: 10 Htot:1.371E-12 T912: 8.22e-14###
+ Hydrogen      5.03e-12 1.00e+00 H+o/Hden 1.00e+00 1.64e-24 H-    H2 3.36e-36 2.74e-26 H2+ HeH+ 8.85e-37 Ho+ ColD 1.51e+04 2.99e+15
+ Helium        3.91e-21 7.79e-11 1.00e+00 HeI 2s3S 2.36e-21 Comp H,C 1.35e-12 1.20e-12 Fill Fac 1.00e+00 Gam1/tot 1.00e+00
+ He singlet n  8.59e-22 6.57e-23 8.51e-28 2.17e-27 6.94e-28 4.81e-27 He tripl 2.36e-21 2.93e-25 8.71e-27 6.33e-26 1.31e-26
+ Pressure      NgasTgas 3.93e+10 P(total) 5.43e-06 P( gas ) 5.43e-06 P(Radtn) 0.00e+00 Rad accl 1.23e+02 ForceMul 8.39e+01
+ Texc(La)      8.29e+03 T(I con) 4.80e+03 T(D con) 1.30e+01 T(U tot) 4.80e+03 nT (c+d) 1.16e+09 Prad/Gas 0.00e+00 Pmag/Gas 0.00e+00
+ Lithium       0.00e+00 4.22e-19 4.74e-09 1.00e+00 Berylliu 0.00e+00 1.67e-25 7.15e-15 1.34e-06 1.00e+00 sec ion: 0.00e+00
+ Boron         0.00e+00 7.10e-28 6.01e-19 4.83e-09 1.78e-03 9.98e-01
+ Carbon        0.00e+00 2.01e-29 2.34e-20 6.18e-12 8.52e-03 9.11e-01 8.08e-02 H2O+/O  1.77e-267 OH+/Otot3.97e-273 Hex(tot) 0.00e+00
+ Nitrogen      0.00e+00 1.99e-34 3.43e-25 1.06e-16 5.82e-09 9.93e-01 6.71e-03 0.00e+00 O2/Ototl 0.00e+00 O2+/Otot5.23e-307
+ Oxygen        0.00e+00 0.00e+00 3.28e-31 1.37e-22 8.33e-15 6.65e-08 1.00e+00 0.00e+00 0.00e+00
+ Fluorine      0.00e+00 0.00e+00 0.00e+00 2.54e-27 1.90e-19 1.54e-12 1.11e-06 1.00e+00 4.28e-13 0.00e+00
+ Neon          0.00e+00 0.00e+00 0.00e+00 8.09e-31 8.98e-23 8.70e-16 5.95e-10 2.74e-05 1.00e+00 3.22e-19 0.00e+00
+ Sodium        0.00e+00 0.00e+00 0.00e+00 1.45e-32 1.71e-24 1.91e-17 1.36e-11 5.02e-07 9.90e-04 9.99e-01 0.00e+00 0.00e+00
+ Magnesium     0.00e+00 0.00e+00 0.00e+00 7.01e-33 1.27e-24 1.50e-17 1.19e-11 5.27e-07 9.29e-04 5.00e-02 9.49e-01 0.00e+00 0.00e+00
+ Aluminium  0  0.00e+00 0.00e+00 0.00e+00 3.27e-32 9.97e-24 2.30e-16 1.76e-10 7.48e-06 1.07e-02 4.78e-01 4.09e-01 1.02e-01 0.00e+00
+ Silicon    0  0.00e+00 0.00e+00 0.00e+00 8.33e-33 3.26e-23 7.36e-16 7.59e-10 2.71e-05 2.16e-02 5.76e-01 3.97e-01 5.01e-03 1.04e-05
+ Phosphorus 0  0.00e+00 0.00e+00 0.00e+00 5.18e-32 1.62e-24 1.23e-15 1.53e-09 5.26e-05 4.14e-02 7.30e-01 2.27e-01 1.39e-03 0.00e+00
+ Sulphur    0  0.00e+00 0.00e+00 0.00e+00 3.00e-32 1.00e-24 8.51e-18 1.20e-09 5.61e-05 5.08e-02 7.32e-01 2.16e-01 1.20e-03 0.00e+00
+ Chlorine   0  0.00e+00 0.00e+00 0.00e+00 4.81e-33 1.31e-25 1.35e-18 3.26e-12 8.02e-05 5.75e-02 8.00e-01 1.42e-01 1.91e-04 0.00e+00
+ Argon      0  0.00e+00 0.00e+00 0.00e+00 3.93e-36 1.04e-27 1.21e-20 3.80e-14 2.07e-08 8.11e-02 8.17e-01 1.02e-01 1.88e-04 0.00e+00
+ Potassium  0  0.00e+00 0.00e+00 0.00e+00 0.00e+00 1.06e-31 7.77e-24 2.26e-17 1.47e-11 1.65e-06 9.18e-01 8.16e-02 6.75e-05 0.00e+00
+ Calcium    0  0.00e+00 0.00e+00 0.00e+00 0.00e+00 8.44e-36 7.03e-28 7.08e-21 5.66e-15 8.79e-10 1.55e-05 9.99e-01 4.90e-04 0.00e+00
+ Scandium   0  0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 1.24e-30 1.19e-23 2.65e-17 3.31e-12 6.31e-08 1.52e-04 1.00e+00 1.76e-06
+ Titanium   0  0.00e+00 0.00e+00 0.00e+00 0.00e+00 0.00e+00 3.66e-32 2.77e-25 6.75e-19 1.22e-13 2.33e-09 5.89e-06 1.75e-03 9.98e-01
+ Vanadium   2  0.00e+00 0.00e+00 0.00e+00 1.42e-32 8.17e-26 1.47e-19 2.90e-14 1.06e-09 2.08e-06 9.46e-04 2.39e-02 9.75e-01 6.33e-12
+ Chromium   3  0.00e+00 0.00e+00 8.04e-32 9.74e-25 1.26e-18 1.69e-13 6.64e-09 1.11e-05 2.28e-03 1.42e-01 2.48e-01 6.07e-01 7.02e-15
+ Manganese  3  0.00e+00 0.00e+00 2.51e-31 9.26e-24 1.65e-17 1.55e-12 3.86e-08 6.77e-05 2.03e-02 3.13e-01 5.94e-01 6.38e-02 8.12e-03
+ Iron       4  0.00e+00 2.26e-31 1.97e-23 1.24e-16 5.25e-11 2.88e-07 2.37e-04 2.69e-02 3.23e-01 5.42e-01 1.07e-01 7.15e-04 3.97e-06
+ Cobalt     3  0.00e+00 0.00e+00 1.80e-32 9.56e-25 9.75e-18 5.38e-12 2.39e-07 1.43e-04 2.36e-02 5.24e-01 4.24e-01 2.71e-02 1.70e-04
+ Nickel     3  0.00e+00 0.00e+00 4.15e-33 2.04e-25 2.27e-18 1.57e-12 1.68e-07 5.43e-04 4.56e-02 5.16e-01 4.17e-01 2.03e-02 7.20e-05
+ Copper     3  0.00e+00 0.00e+00 1.69e-33 1.30e-25 1.35e-18 9.84e-13 1.20e-07 4.85e-04 1.16e-01 6.26e-01 2.45e-01 1.23e-02 5.42e-05
+ Zinc       3  0.00e+00 0.00e+00 1.11e-34 7.55e-27 1.14e-19 6.93e-14 9.92e-09 4.80e-05 3.43e-02 8.19e-01 1.44e-01 3.11e-03 1.26e-05
+
+
+ PROBLEM DISASTER - the kinetic temperature, 2.790e+00K, is below the lower limit of the code, 2.800e+00K.
+ Consider setting a lowest temperature with the SET TEMPERATURE FLOOR command.
+ This calculation is aborting.
+ Sorry.
+
+ This is often due to mixing luminosity/intensity commands, having an unphysical SED, or too high a flux of cosmic rays.
+ To find the problem, try setting a constant temperature (and STOP ZONE 1), rerun the model, and check the output to find what is happening.
+
+
+
+
+ PROBLEM DISASTER
+ An assert has been thrown, this is bad.
+ Failed: !conv.lgFirstSweepThisZone
+ It happened in the file rt_tau_inc.cpp at line number 50
+ This is iteration 1, nzone 1371, fzone 1371.00, lgSearch=F.
+ >>> 
+ >>> 
+ >>> Cosmic rays are not included and the gas is molecular.  THIS IS KNOWN TO BE UNSTABLE.  Add cosmic rays and try again.
+ >>> 
+ >>>
+
